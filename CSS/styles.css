@@ -1,0 +1,118 @@
+main {
+    background-color: rgb(180, 255, 187);
+}
+
+body {
+    text-align: center;
+}
+
+.logo {
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url(../Fontes/roboto/Roboto-Regular.ttf);
+    src: local('roboto'), local('roboto'), url('../Fontes/roboto/Roboto-Regular.ttf') format('truetype');
+}
+
+#menu ul {
+    padding: 0px;
+    margin: 0px;
+    background-color: #2992DE;
+    list-style: none;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    padding: 15px 25px;
+    display: inline-block;
+    background-color: #2992DE;
+    font-family: 'roboto';
+    font-style: bold;
+    color: white;
+    text-decoration: none;
+}
+
+#menu ul li a:hover {
+    background-color: gray;
+    color: darkblue;
+    border-bottom: 2px solid darkblue;
+}
+
+.carrossel {
+    background-color: rgb(205, 234, 255);
+    text-align: center;
+    width: 100%;
+}
+
+.sub01 {
+    background-color: white;
+    text-align: center;
+    font-family: 'roboto';
+    font-size: 54px;
+    font-style: bold;
+    color: rgb(16, 37, 233);
+}
+
+.grid01 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.grid02 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    font-family: 'roboto';
+    font-size: 45px;
+    color: white;
+    text-align: center;
+}
+
+.conteudo01 {
+    display: grid;
+    font-family: 'roboto';
+    font-size: 30px;
+    text-align: justify;
+}
+
+.bloco02 {
+    display: grid;
+    /*width: 440px;
+    height: 420px;*/
+    background-color: rgb(16, 37, 233);
+    text-align: center;
+    box-align: center;
+}
+
+.conteudo03 {
+    background-color: rgb(180, 255, 187);
+    text-align: center;
+    width: 100%;
+    font-family: 'roboto';
+    font-style: bold;
+    font-size: 48px;
+    color: black;
+}
+
+.inscrever {
+    background-color: rgb(16, 37, 233);
+    color: white;
+    padding: 30px 50px;
+    text-decoration: none; /*Evita que o link fique roxo ao clicar!*/
+    text-align: center;
+    border-radius: 4px;
+}   
+
+.rodape {
+    background-color: black;
+    font-family: 'roboto';
+    font-style: bold;
+    font-size: 28px;
+    color: white;
+}
