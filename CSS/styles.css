@@ -6,7 +6,7 @@ body {
     text-align: center;
 }
 
-.logo {
+.logo_topo {
     text-align: center;
 }
 
@@ -100,6 +100,15 @@ body {
     color: black;
 }
 
+.conteudo04 {
+    text-align: center;
+    width: 100%;
+    font-family: 'roboto';
+    font-style: bold;
+    font-size: 30px;
+    color: black;
+}
+
 .inscrever {
     background-color: rgb(16, 37, 233);
     color: white;
@@ -114,5 +123,15 @@ body {
     font-family: 'roboto';
     font-style: bold;
     font-size: 28px;
+    color: white;
+}
+
+.titulo {
+    background-color: rgb(16, 37, 233);
+    text-align: center;
+    width: 100%;
+    font-family: 'roboto';
+    font-size: 54px;
+    font-style: bold;
     color: white;
 }
