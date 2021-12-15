@@ -21,10 +21,12 @@ body {
     margin: 0px;
     background-color: #2992DE;
     list-style: none;
+    text-align: center;
 }
 
 #menu ul li {
     display: inline;
+    text-align: center;
 }
 
 #menu ul li a {
@@ -35,18 +37,14 @@ body {
     font-style: bold;
     color: white;
     text-decoration: none;
+    text-align: center;
 }
 
 #menu ul li a:hover {
     background-color: gray;
     color: darkblue;
     border-bottom: 2px solid darkblue;
-}
-
-.carrossel {
-    background-color: rgb(205, 234, 255);
     text-align: center;
-    width: 100%;
 }
 
 .sub01 {
@@ -124,6 +122,7 @@ body {
     font-style: bold;
     font-size: 28px;
     color: white;
+    text-align: center;
 }
 
 .titulo {
