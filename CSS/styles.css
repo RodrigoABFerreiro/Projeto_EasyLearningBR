@@ -92,7 +92,7 @@ body {
     width: 100%;
     font-family: 'roboto';
     font-style: bold;
-    font-size: 36px;
+    font-size: 30px;
     color: black;
 }
 
@@ -126,7 +126,7 @@ body {
 .inscrever {
     background-color: rgb(16, 37, 233);
     color: white;
-    padding: 30px 50px;
+    padding: 20px 40px;
     text-decoration: none; /*Evita que o link fique roxo ao clicar!*/
     text-align: center;
     border-radius: 4px;
@@ -174,7 +174,7 @@ body {
     height: 30px;
 }
 
-.container {
+.container01 {
     display: flex;
 }
 
@@ -197,3 +197,46 @@ body {
 .planoFundo {
     background-image: url("../Imagens/Background01.jpg");
 }
+
+.historia1 {
+    font-family: 'roboto';
+    font-size: 20px;
+    text-align: justify;
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.historia2 {
+    font-family: 'roboto';
+    font-size: 20px;
+    text-align: justify;
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.historia3 {
+    font-family: 'roboto';
+    font-size: 20px;
+    text-align: justify;
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.container02 {
+    display: flex;
+}
+
+.inscrever2 {
+    background-color: rgb(16, 37, 233);
+    color: white;
+    padding: 30px 210px;
+    text-decoration: none; /*Evita que o link fique roxo ao clicar!*/
+    text-align: center;
+    border-radius: 4px;
+}   
