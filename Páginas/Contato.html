@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <title> Contato - Easy Learning BR </title>
     <link rel ="stylesheet" href ="../CSS/styles.css">
+    <script src ="../JS/scripts.js"> </script>
 </head>
 <body>
     <main>
         <div class ="logo_topo">
-            <img src ="../Imagens/Logo_Site.png" width ="25%"><br>
+            <a href ="../index.html"> <img src ="../Imagens/Logo_Site.png" width ="25%"> </a> <br>
         </div>
 
         <div class ="titulo">
@@ -17,33 +18,36 @@
     </main>
 
     <div class="conteudo04">
-            <p> Entre em contato com a Easy Learning BR! </p>
+        <p> Entre em contato com a Easy Learning BR! </p>
+        <p class ="sub_conteudo04"> Aqui você pode mandar sugestões, reclamações, dúvidas ou problemas técnicos. </p>
     </div>
     
     <br> <br>
 
-    <form name ="contato" action="#" method="post">
+    <form name ="contato" action="base_contato.php" method="post">
+        <div class ="form01">
 
-        <label class ="form_contato"> Nome: </label>
-        <input name ="nome" type="text" placeholder="Seu Nome"/>
+        <input class ="form_nome" name ="nome" type="text" placeholder="Seu Nome"/>
         <br><br>
 
-        <label class ="form_contato"> E-Mail: </label>
-        <input name ="email" type="text" placeholder="Seu E-Mail"/>
+        <input class ="form_email" name ="email" type="text" placeholder="Seu E-Mail"/>
         <br><br>
 
-        <label class ="form_contato"> Assunto: </label>
-        <input name ="assunto" type="text" placeholder="Assunto"/>
+        <input class ="form_assunto" name ="assunto" type="text" placeholder="Assunto"/>
         <br><br>
 
-        <label class ="form_contato"> Mensagem: </label>
-        <input name ="nome" type="text" placeholder="Sua Mensagem"/>
+        <input class ="form_mensagem" name ="mensagem" type="text" placeholder="Sua Mensagem"/>
+        <br><br>
 
+        <input class ="btn_enviar" type ="submit" value="Enviar" onclick="return validar_dados()"/>
+        <br><br>
+
+        </div>
     </form>
 
     <footer class ="rodape">
         <br><br>
-        <img src ="../Imagens/Logo_Site.png" width ="20%">
+        <a href ="../index.html"> <img src ="../Imagens/Logo_Site.png" width ="20%"> </a>
         <br>
         <img src ="../Imagens/Logo_Face.png" width ="4%">
         <img src ="../Imagens/Logo_Twitter.png" width ="4%">

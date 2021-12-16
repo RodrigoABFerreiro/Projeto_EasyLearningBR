@@ -2,9 +2,77 @@
 <html lang="PT-BR">
 <head>
     <meta charset="UTF-8">
-    <title> Login </title>
+    <title> Login - Easy Learning BR </title>
+    <link rel ="stylesheet" href ="../CSS/styles.css">
 </head>
 <body>
+    <div class ="planoFundo">
+    <main>
+        <div class ="logo_topo">
+            <a href ="../index.html"> <img src ="../Imagens/Logo_Site.png" width ="25%"> </a> <br>
+        </div>
+
+        <div class ="titulo">
+            <p> ACESSE A PLATAFORMA </p>
+        </div>
+    </main>
+
+    <form name ="cadastro" action="base_cadastro.php" method="post">
+
+    <div class ="container">
+
+        <div class ="form02">
+            <div class="conteudo05">
+                <p> Primeiro Acesso? Cadastre-se Abaixo! </p>
+            </div>
+        
+            <input class ="form_nome" name ="nome" type="text" placeholder="Nome Completo"/>
+            <br><br>
+
+            <input class ="form_email" name ="email" type="text" placeholder="E-Mail"/>
+            <br><br>
+
+            <input class ="form_senha" name ="senha" type="password" placeholder="Senha"/>
+            <br><br>
+
+            <input class ="form_repSenha" name ="repSenha" type="password" placeholder="Repita a Senha"/>
+            <br><br>
+
+            <input class ="btn_enviar" type ="submit" value="Cadastrar" onclick="return cadastrar()"/>
+            <br><br>
+
+        </div>
+
+        <div class ="form03">
+            <div class="conteudo05">
+                <p> Faça o Login em Sua Conta </p>
+            </div>
+
+            <input class ="form_email" name ="email" type="text" placeholder="E-Mail"/>
+            <br><br>
     
+            <input class ="form_senha" name ="senha" type="password" placeholder="Senha"/>
+            <br><br>
+    
+            <input class ="btn_enviar" type ="submit" value="Entrar" onclick="return entrar()"/>
+            <br><br>
+    
+        </div>
+    </div>
+    </form>
+    <br>
+
+    </div>
+    <footer class ="rodape">
+        <br><br>
+        <a href ="../index.html"> <img src ="../Imagens/Logo_Site.png" width ="20%"> </a>
+        <br>
+        <img src ="../Imagens/Logo_Face.png" width ="4%">
+        <img src ="../Imagens/Logo_Twitter.png" width ="4%">
+        <p> EasyLearningBR </p> <br>
+        <p> Copyright © 2021 - Easy Learning BR </p>
+        <br> <br>
+    </footer>
+
 </body>
 </html>

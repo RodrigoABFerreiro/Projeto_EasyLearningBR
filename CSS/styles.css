@@ -51,7 +51,7 @@ body {
     background-color: white;
     text-align: center;
     font-family: 'roboto';
-    font-size: 54px;
+    font-size: 40px;
     font-style: bold;
     color: rgb(16, 37, 233);
 }
@@ -67,7 +67,7 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
     font-family: 'roboto';
-    font-size: 45px;
+    font-size: 36px;
     color: white;
     text-align: center;
 }
@@ -75,14 +75,12 @@ body {
 .conteudo01 {
     display: grid;
     font-family: 'roboto';
-    font-size: 30px;
+    font-size: 20px;
     text-align: justify;
 }
 
 .bloco02 {
     display: grid;
-    /*width: 440px;
-    height: 420px;*/
     background-color: rgb(16, 37, 233);
     text-align: center;
     box-align: center;
@@ -94,7 +92,7 @@ body {
     width: 100%;
     font-family: 'roboto';
     font-style: bold;
-    font-size: 48px;
+    font-size: 36px;
     color: black;
 }
 
@@ -103,7 +101,25 @@ body {
     width: 100%;
     font-family: 'roboto';
     font-style: bold;
-    font-size: 30px;
+    font-size: 26px;
+    color: black;
+}
+
+.conteudo05 {
+    text-align: center;
+    width: 100%;
+    font-family: 'roboto';
+    font-style: bold;
+    font-size: 28px;
+    color: rgb(16, 37, 233);
+}
+
+.sub_conteudo04 {
+    text-align: center;
+    width: 100%;
+    font-family: 'roboto';
+    font-style: bold;
+    font-size: 18px;
     color: black;
 }
 
@@ -120,24 +136,64 @@ body {
     background-color: black;
     font-family: 'roboto';
     font-style: bold;
-    font-size: 28px;
+    font-size: 20px;
     color: white;
     text-align: center;
 }
 
 .titulo {
-    background-color: rgb(16, 37, 233);
+    background-color: #2992DE;
     text-align: center;
     width: 100%;
     font-family: 'roboto';
-    font-size: 54px;
+    font-size: 40px;
     font-style: bold;
     color: white;
 }
 
-.php-email-form {
+.form_nome, .form_email, .form_assunto, .form_senha, .form_repSenha {
     font-family: 'roboto';
+    font-size: 18px;
     font-style: bold;
-    font-size: 24px;
-    
+    width: 400px;
+}
+
+.form_mensagem {
+    font-family: 'roboto';
+    font-size: 18px;
+    font-style: bold;
+    width: 400px;
+    height: 250px;
+}
+
+.btn_enviar {
+    font-family: 'roboto';
+    font-size: 18px;
+    font-style: bold;
+    width: 100px;
+    height: 30px;
+}
+
+.container {
+    display: flex;
+}
+
+.form02 {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(230, 230, 230, 0.8)
+}
+
+.form03 {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(230, 230, 230, 0.8)
+}
+
+.planoFundo {
+    background-image: url("../Imagens/Background01.jpg");
 }
