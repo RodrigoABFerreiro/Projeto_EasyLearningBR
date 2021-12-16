@@ -134,3 +134,10 @@ body {
     font-style: bold;
     color: white;
 }
+
+.php-email-form {
+    font-family: 'roboto';
+    font-style: bold;
+    font-size: 24px;
+    
+}
